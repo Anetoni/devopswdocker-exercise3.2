@@ -16,7 +16,7 @@ public class DefaultController {
 
     @RequestMapping(method = RequestMethod.POST)
     public String press(Model model) {
-        model.addAttribute("press", "This was deployed with GitHub Actions!!!");
+        model.addAttribute("press", "This was deployed with GitHub Actions!!! \n Exercise should be complete");
         return "index";
     }
 }
